@@ -22,7 +22,7 @@ export default function AboutPage() {
                     <div className={styles.content}>
                         <p>
                             TIL (Today I Learned) adalah kumpulan catatan singkat tentang
-                            hal-hal yang saya pelajari setiap hari.
+                            hal-hal yang Sekar pelajari setiap hari.
                         </p>
                         <p>
                             Setiap catatan berisi pembelajaran kecil yang mungkin berguna

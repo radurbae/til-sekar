@@ -25,7 +25,7 @@ export default function Home() {
                     <div className={`container ${styles.heroContent}`}>
                         <h1 className={styles.heroTitle}>Today I Learned</h1>
                         <p className={styles.heroSubtitle}>
-                            Catatan pribadi dari hal-hal yang aku pelajari setiap hari.
+                            Catatan pribadi dari hal-hal yang Sekar pelajari setiap hari.
                         </p>
                     </div>
                 </section>
