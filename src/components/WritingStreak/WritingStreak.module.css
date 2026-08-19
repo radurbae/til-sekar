@@ -49,8 +49,8 @@
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: rgba(16, 185, 129, 0.1);
-    color: #10b981;
+    background: rgba(6, 78, 59, 0.15);
+    color: #064e3b;
     font-size: 0.75rem;
     font-weight: 600;
     padding: 4px 10px;
@@ -71,7 +71,7 @@
 .badgePulse {
     width: 6px;
     height: 6px;
-    background-color: #10b981;
+    background-color: #059669;
     border-radius: 50%;
     display: inline-block;
     animation: pulseBadge 2s infinite;
@@ -80,15 +80,15 @@
 @keyframes pulseBadge {
     0% {
         transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+        box-shadow: 0 0 0 0 rgba(5, 150, 105, 0.7);
     }
     70% {
         transform: scale(1);
-        box-shadow: 0 0 0 5px rgba(16, 185, 129, 0);
+        box-shadow: 0 0 0 5px rgba(5, 150, 105, 0);
     }
     100% {
         transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+        box-shadow: 0 0 0 0 rgba(5, 150, 105, 0);
     }
 }
 
@@ -133,20 +133,20 @@
 
 /* Icon custom gradients */
 .fireActive {
-    background: linear-gradient(135deg, rgba(249, 115, 22, 0.15) 0%, rgba(239, 68, 68, 0.15) 100%);
-    color: #f97316;
-    filter: drop-shadow(0 2px 8px rgba(249, 115, 22, 0.2));
+    background: linear-gradient(135deg, rgba(154, 52, 18, 0.15) 0%, rgba(185, 28, 28, 0.15) 100%);
+    color: #9a3412;
+    filter: drop-shadow(0 2px 8px rgba(154, 52, 18, 0.2));
     animation: flicker 1.5s ease-in-out infinite alternate;
 }
 
 @keyframes flicker {
     0% {
         transform: scale(1);
-        filter: drop-shadow(0 2px 6px rgba(249, 115, 22, 0.2));
+        filter: drop-shadow(0 2px 6px rgba(154, 52, 18, 0.2));
     }
     100% {
         transform: scale(1.04);
-        filter: drop-shadow(0 2px 12px rgba(249, 115, 22, 0.4));
+        filter: drop-shadow(0 2px 12px rgba(154, 52, 18, 0.4));
     }
 }
 
@@ -156,13 +156,13 @@
 }
 
 .trophy {
-    background: linear-gradient(135deg, rgba(234, 179, 8, 0.15) 0%, rgba(202, 138, 4, 0.15) 100%);
-    color: #eab308;
+    background: linear-gradient(135deg, rgba(133, 77, 14, 0.15) 0%, rgba(161, 98, 7, 0.15) 100%);
+    color: #854d0e;
 }
 
 .book {
-    background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(29, 78, 216, 0.15) 100%);
-    color: #3b82f6;
+    background: linear-gradient(135deg, rgba(30, 64, 175, 0.15) 0%, rgba(30, 58, 138, 0.15) 100%);
+    color: #1e40af;
 }
 
 .statInfo {

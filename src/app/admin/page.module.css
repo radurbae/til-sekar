@@ -43,7 +43,7 @@
     background: rgba(220, 38, 38, 0.1);
     border: 1px solid rgba(220, 38, 38, 0.3);
     border-radius: var(--radius-sm);
-    color: #dc2626;
+    color: #991b1b;
     text-align: center;
 }
 
@@ -388,7 +388,7 @@
 }
 
 .deleteButton {
-    color: #dc2626;
+    color: #991b1b;
     border-color: rgba(220, 38, 38, 0.3);
 }
 
@@ -512,7 +512,7 @@
 }
 
 .tagDeleteBtn {
-    color: #dc2626;
+    color: #991b1b;
 }
 
 /* Modal */
@@ -555,7 +555,7 @@
 
 .modalWarning {
     font-size: 0.875rem;
-    color: #dc2626;
+    color: #991b1b;
     margin-top: var(--space-md);
 }
 
@@ -594,7 +594,7 @@
     padding: var(--space-sm) var(--space-lg);
     font-size: 0.875rem;
     font-weight: 600;
-    background: #dc2626;
+    background: #991b1b;
     color: white;
     border: none;
     border-radius: var(--radius-sm);
