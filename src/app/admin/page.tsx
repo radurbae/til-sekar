@@ -1008,7 +1008,7 @@ export default function AdminPage() {
                                     ) : notes.length === 0 ? (
                                         <div className={styles.emptyState}>
                                             <p>Belum ada catatan pribadi.</p>
-                                            <p style={{ fontSize: '0.875rem', marginTop: '0.5rem' }}>Klik "Tulis Catatan Baru" untuk mulai.</p>
+                                            <p style={{ fontSize: '0.875rem', marginTop: '0.5rem' }}>Klik &quot;Tulis Catatan Baru&quot; untuk mulai.</p>
                                         </div>
                                     ) : (
                                         <div className={styles.noteList}>
