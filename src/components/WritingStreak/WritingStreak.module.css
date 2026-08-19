@@ -11,11 +11,6 @@
     transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
 }
 
-[data-theme="dark"] .containerCard {
-    background: var(--background-secondary);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
-}
-
 .containerCard:hover {
     border-color: var(--border-hover);
     box-shadow: 0 6px 24px rgba(0, 0, 0, 0.04);

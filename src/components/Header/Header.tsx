@@ -2,11 +2,8 @@
 
 import Link from "next/link";
 import styles from "./Header.module.css";
-import { useAppSettings } from "@/components/AppSettings/AppSettingsProvider";
 
 export default function Header() {
-    const { theme, toggleTheme } = useAppSettings();
-
     return (
         <header className={styles.header}>
             <div className={`container ${styles.headerContent}`}>
@@ -21,16 +18,6 @@ export default function Header() {
                         About
                     </Link>
                 </nav>
-                <div className={styles.controls}>
-                    <button
-                        type="button"
-                        onClick={toggleTheme}
-                        className={styles.themeButton}
-                        aria-label="Toggle theme"
-                    >
-                        {theme === "light" ? "Dark" : "Light"}
-                    </button>
-                </div>
             </div>
         </header>
     );

@@ -1,19 +1,19 @@
 :root {
-    /* Colors - Clean Light Theme */
-    --background: #ffffff;
-    --background-secondary: #fafafa;
-    --surface: #f5f5f5;
-    --surface-hover: #eeeeee;
-    --border: #e5e5e5;
-    --border-hover: #d4d4d4;
+    /* Colors - Pink Theme */
+    --background: #fdc3d1;
+    --background-secondary: #f9b3c3;
+    --surface: #f7a2b5;
+    --surface-hover: #f591a7;
+    --border: rgba(74, 21, 37, 0.12);
+    --border-hover: rgba(74, 21, 37, 0.24);
 
     /* Text Colors */
-    --text-primary: #171717;
-    --text-secondary: #525252;
-    --text-muted: #a3a3a3;
+    --text-primary: #2d0e17;
+    --text-secondary: #5c2435;
+    --text-muted: #8a4a5c;
 
-    /* Accent Color - Simple */
-    --accent: #171717;
+    /* Accent Color */
+    --accent: #2d0e17;
 
     /* Spacing */
     --space-xs: 0.25rem;
@@ -34,21 +34,6 @@
 
     /* Transitions */
     --transition-fast: 150ms ease;
-}
-
-[data-theme="dark"] {
-    --background: #0f1115;
-    --background-secondary: #151922;
-    --surface: #1b202b;
-    --surface-hover: #252c3a;
-    --border: #2b3242;
-    --border-hover: #3a455b;
-
-    --text-primary: #f3f5f8;
-    --text-secondary: #c6ccd8;
-    --text-muted: #8d97ab;
-
-    --accent: #f3f5f8;
 }
 
 * {
