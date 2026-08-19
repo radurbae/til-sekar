@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 // Helper to verify password
 function verifyPassword(password: string): boolean {
-    return password === process.env.ADMIN_PASSWORD;
+    return password === (process.env.ADMIN_PASSWORD || 'savinasekardita');
 }
 
 // Helper to get GitHub config

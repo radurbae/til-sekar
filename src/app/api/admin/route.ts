@@ -7,7 +7,7 @@ export async function POST(request: NextRequest) {
 
         // Handle login action
         if (action === 'login') {
-            if (password !== process.env.ADMIN_PASSWORD) {
+            if (password !== (process.env.ADMIN_PASSWORD || 'savinasekardita')) {
                 return NextResponse.json(
                     { error: 'Password salah' },
                     { status: 401 }
@@ -20,7 +20,7 @@ export async function POST(request: NextRequest) {
         const { title, category, tags, content } = body;
 
         // Simple password protection
-        if (password !== process.env.ADMIN_PASSWORD) {
+        if (password !== (process.env.ADMIN_PASSWORD || 'savinasekardita')) {
             return NextResponse.json(
                 { error: 'Invalid password' },
                 { status: 401 }

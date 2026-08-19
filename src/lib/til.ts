@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
-export type TilLanguage = "ID" | "EN" | "AR";
+export type TilLanguage = "ID" | "EN";
 
 export interface TilData {
     slug: string;
@@ -25,9 +25,6 @@ function normalizeLanguage(rawLanguage: string): TilLanguage | null {
     if (["en", "english"].includes(normalized)) {
         return "EN";
     }
-    if (["ar", "arabic", "arab"].includes(normalized)) {
-        return "AR";
-    }
     return null;
 }
 
@@ -42,10 +39,6 @@ function inferLanguage(content: string, rawLanguage: unknown): TilLanguage {
         if (normalized) {
             return normalized;
         }
-    }
-
-    if (/[\u0600-\u06FF]/.test(content)) {
-        return "AR";
     }
 
     const lowercase = content.toLowerCase();

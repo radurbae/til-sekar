@@ -21,7 +21,7 @@ interface TilListProps {
     items: TilListItem[];
 }
 
-const LANGUAGE_OPTIONS: Array<"all" | TilLanguage> = ["all", "ID", "EN", "AR"];
+const LANGUAGE_OPTIONS: Array<"all" | TilLanguage> = ["all", "ID", "EN"];
 
 export default function TilList({ items }: TilListProps) {
     const [searchQuery, setSearchQuery] = useState("");
